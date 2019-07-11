@@ -1,0 +1,355 @@
+/*Padronizar*/
+*{ 
+	font-family: helvetica, sans-serif
+}
+
+body{
+	background-color: #191c1e;
+}
+
+.logoLogin{
+	color: aliceblue;
+	text-align: center;
+	margin-top: 25px;
+	font: 52px sans-serif;
+	font-weight: bold;
+}
+
+.formularioLogin{
+	width: 400px;
+	margin: 50px auto;
+}
+
+.formularioLogin input[type="text"],
+.formularioLogin input[type="password"]{
+	width: 380px;
+	border: solid 1px aliceblue;
+	border-radius: 5px;
+	margin: 4px;
+	padding: 5px;
+}
+
+.formularioLogin input[type="submit"]{
+	margin: 4px;
+	padding: 5px 40px;
+	margin-right: 42%;
+	margin-left: 30%;
+}
+
+
+.navbar-brand{
+	font-weight: bold;
+}
+
+.cursos{
+	width: 1200px;
+}
+
+.encontre{
+	margin-left: 250px;
+	margin-top: 25px;
+	color: aliceblue;
+}
+
+.combine{
+	margin-left: 250px;
+	color: aliceblue;
+	font-weight: bold;
+	border-bottom: solid 1px aliceblue;
+	width: 400px;
+}
+
+.javaIcon{
+	margin-top: 20px;
+	margin-left: 100px;
+}
+
+.cssIcon{
+	margin-top: 20px;
+	margin-left: 100px;
+}
+
+.afterIcon{
+	margin-top: 20px;
+	margin-left: 100px;
+}
+
+.psIcon{
+	margin-top: 20px;
+	margin-left: 100px;
+}
+
+.javao,
+.csszada,
+.afterzada,
+.pszada{
+	font-family: helvetica;
+	font-size: 18px;
+	color: aliceblue;
+	margin-left: 20px;
+}
+
+
+
+.noticiasEscola{
+	margin-top: 50px;
+	margin-left: 34%;
+}
+
+.tamanhoPrin{
+	height: 1450px;
+}
+
+.formularioAluno{
+	margin: 0 auto;
+	margin-top: 70px;
+	width: 1100px;
+}
+
+.formularioAluno input[type="text"]{
+	margin:5px 2px;
+	padding: 5px;
+	width: 350px;
+	border: solid 1px aliceblue;
+	border-radius: 5px;
+}
+
+.formularioAluno input[type="submit"]{
+	margin: 5px;
+	margin-left: 32.7%;
+	padding: 5px 90px;
+	width: 350px;
+}
+
+
+.formularioProfessor{
+	width: 1050px;
+	margin: 0 auto;
+	margin-top: 70px;
+}
+
+.formularioProfessor input[type="text"],
+.formularioProfessor input[type="email"]{
+	margin: 5px 5px;
+	padding: 5px;
+	width: 500px;
+	border: solid 1px aliceblue;
+	border-radius: 5px;
+}
+
+.formularioProfessor input[type="submit"]{
+	margin: 5px;
+	padding: 5px 90px;
+	width: 500px;
+}
+
+#tabelaAluno{
+	padding: 5px;
+	font-weight: bold;
+	margin: 30px auto;
+	color: #191C1E;
+	width: 94%;
+	text-align: center;
+}
+
+#tabelaProfessor{
+	padding: 5px;
+	font-weight: bold;
+	margin: 30px auto;
+	color: #191C1E;
+	width: 94%;
+	text-align: center;
+}
+
+footer{
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #343A40;
+   color: white;
+   text-align: center;
+}
+
+
+footer p{
+	text-align: center;
+	margin: 5px auto;
+	color:aliceblue;
+	font: 14px sans-serif;
+}
+
+.Janeiro{
+	margin-left: 15px;
+	margin-top: 70px;
+	background-color: gray;
+	text-align: center;
+	border: solid 1px white;
+	border-radius: 5px;
+}
+
+thead{
+	text-align: center;
+}
+
+.Janeiro td{
+	width: 60px;
+	border: solid 1px white;
+	border-radius: 5px;
+	font-weight: bold;
+}
+
+.dadosPessoais{
+	margin: 70px auto;
+	border: solid 1px white;
+	border-radius: 5px;
+	padding: 6px;
+	width: 1200px;
+}
+
+.dadoLabel{
+	color:white;
+	margin: 30px 10px;
+	inline: block;
+}
+
+.dadoLabel input[type="text"],
+.dadoLabel input[type="email"]{
+	margin: 0 auto;
+	float: right;
+	width: 800px;
+	inline: block;
+	margin-right: 50px;
+	border-radius: 5px;
+}
+
+.dadoLabel label{
+	margin: 15px 10px;
+}
+
+.dadosPessoais input[type="submit"]{
+	margin: 10px 410px;
+	padding: 6px 120px;
+}
+
+.icone img{
+	width: 60px;
+	margin-top: 0px;
+	overflow: hidden;
+	margin-left: 34%;
+}
+
+.dadosPessoais h2{
+	color: aliceblue;
+	font: 40px helvetica;
+	margin-left: 40%;
+	margin-top: -55px;
+	overflow: hidden;
+	border-bottom: solid 1px aliceblue;
+	width: 220px;
+}
+
+.formularioMateria{
+	margin-top: 20px;
+	margin: 0 auto;
+	width: 510px;
+}
+
+.formularioMateria select{
+	padding: 7px;
+	width: 500px;
+	border: solid 1px aliceblue;
+	border-radius: 5px;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+
+.formularioMateria input[type="text"]{
+	margin: 5px;
+	padding: 5px;
+	width: 500px;
+	border: solid 1px aliceblue;
+	border-radius: 5px;
+	
+}
+
+.formularioMateria input[type="submit"]{
+	margin: 10px 180px;
+	width: 132px;
+	padding: 4px 30px;
+}
+
+.materia{
+	color: aliceblue;
+	margin-top: 70px;
+	text-align: center;
+	font-size: 36px;
+	font-family: helvetica, sans-serif;
+}
+
+.index a{
+	width: 200px;
+	margin: 10px;
+}
+
+.index{
+	width: 220px;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+
+#tabelaMateria{
+	padding: 5px;
+	font-weight: bold;
+	margin: 30px auto;
+	color: #191C1E;
+	width: 94%;
+	text-align: center;
+}
+	
+#batutinha{
+	color:aliceblue;
+	font-size: 16px;
+	font-family: helvetica, sans-serif;
+}
+
+.easter{
+	color: #191C1E;
+	margin: 845px 442px;
+}
+
+.easter:hover{
+	text-decoration: none;
+}
+
+#pussy{
+	background-color: red;
+	color: white;
+}
+	
+#mensagem{
+	width: 400px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 18px;
+	font-family: helvetica, sans-serif;
+	margin: 0 auto;
+	margin-top: 100px;
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		
